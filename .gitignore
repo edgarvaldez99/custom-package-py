@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+de_classes/__pycache__/
+de_classes/__pycache__/acti.cpython-36.pyc
+de_classes/__pycache__/globals.cpython-36.pyc
+de_classes/__pycache__/item.cpython-36.pyc
+de_classes/__pycache__/de.cpython-36.pyc
+.idea/workspace.xml
+.idea/*
+dist/
+paquete_fe.egg-info/

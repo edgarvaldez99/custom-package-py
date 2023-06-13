@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "custom-package-py"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 authors = ["Edgar Valdez <edgarvaldez99@gmail.com>"]
 license = "MIT"
@@ -8,8 +8,13 @@ readme = "README.md"
 packages = [{include = "custom_package_py"}]
 
 [tool.poetry.dependencies]
-python = "3.8"
-
+python = "^3.8"
+requests = "^2.28.2"
+lxml = "^4.9.2"
+SQLAlchemy = "^2.0.6"
+pyOpenSSL = "^23.1.1"
+zeep = "^4.2.1"
+pytz = "^2022.7.1"
 
 [build-system]
 requires = ["poetry-core"]

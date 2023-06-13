@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='paquete-fe',
+    name='custom-package-py',
     packages=find_packages(),
-    package_dir={'paquete_fe': '.'},
-    version='0.1.23',
-    description='Facturación Electrónica',
-    author='Mateo Nunez',
-    author_email='mateo@idl.com.py',
-    url='https://cds.com.py',
+    package_dir={'custom_package_py': '.'},
+    version='0.0.0',
+    description='',
+    author='Edgar Valdez',
+    author_email='edgarvaldez99@gmail.com',
+    url='https://github.com/edgarvaldez99/custom-package-py',
     include_package_data=True,
     install_requires=[
         'lxml',
