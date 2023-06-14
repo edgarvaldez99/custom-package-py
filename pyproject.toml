@@ -1,6 +1,6 @@
 [project]
 name = "custom_package_py"
-version = "0.0.0"
+version = "0.0.1"
 description = ""
 requires-python = ">=3.8"
 authors = [{name = "Edgar Valdez", email = "edgarvaldez99@gmail.com"}]
