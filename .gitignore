@@ -8,4 +8,4 @@ de_classes/__pycache__/de.cpython-36.pyc
 .idea/workspace.xml
 .idea/*
 dist/
-paquete_fe.egg-info/
+*.egg-info/

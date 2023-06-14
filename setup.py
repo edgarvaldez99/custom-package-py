@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='custom-package-py',
+    name='custom_package_py',
     packages=find_packages(),
     package_dir={'custom_package_py': '.'},
     version='0.0.0',

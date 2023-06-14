@@ -1,11 +1,17 @@
-[tool.poetry]
-name = "custom-package-py"
+[project]
+name = "custom_package_py"
 version = "0.0.0"
 description = ""
-authors = ["Edgar Valdez <edgarvaldez99@gmail.com>"]
-license = "MIT"
+authors = [{name = "Edgar Valdez", email = "edgarvaldez99@gmail.com"}]
+license = {text = "MIT"}
 readme = "README.md"
-packages = [{include = "custom_package_py"}]
+classifiers=[
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.9",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -17,5 +23,9 @@ zeep = "^4.2.1"
 pytz = "^2022.7.1"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["custom_package_py"]
+package-dir = {"custom_package_py" = "."}
